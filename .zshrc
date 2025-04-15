@@ -22,6 +22,9 @@ zstyle ':completion:*' matcher-list '' 'm:{a-zA-Z}={A-Za-z}' 'r:|[._-]=* r:|=*' 
 
 ##### EXPORTS #####
 
+# personal
+export PATH=$PATH:$HOME/bin/
+
 # go
 export PATH=$PATH:/usr/local/go/bin/
 export PATH=$PATH:$HOME/go/bin/
@@ -50,8 +53,9 @@ alias gs='git status'
 alias ga='git add'
 alias gc='git commit -m'
 alias gb='git branch'
-alias gs='git switch'
 alias gl='git --no-pager log -n 10 --oneline'
+alias gr='git reset'
+alias gsw='git switch'
 alias gcl='git clone'
 alias gra='git remote add origin'
 alias gpu='git push origin main'
@@ -70,7 +74,7 @@ bindkey "^[[6~" end-of-history
 bindkey "^[[3~" delete-char
 
 # execution
-bindkey -s "^F" "^Uecho 'hello, world'^M"
+bindkey -s "^F" "^Utmux-sessionizer.sh^M"
 
 
 # To customize prompt, run `p10k configure` or edit ~/.p10k.zsh.
