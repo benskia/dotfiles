@@ -4,5 +4,5 @@ A collection of my configs for various things.
 
 ## TODO
 
-- Installation script(s)
-- Move used images into config locations
+- Script to pull current user configs
+- Move default fonts into relevant config folders
