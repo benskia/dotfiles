@@ -1,0 +1,7 @@
+# add theme
+romkatv/powerlevel10k
+
+# add fish-like features
+zsh-users/zsh-autosuggestions
+zsh-users/zsh-history-substring-search
+zsh-users/zsh-syntax-highlighting

@@ -1,0 +1,3 @@
+# Kitty Config
+
+mew
