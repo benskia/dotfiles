@@ -1,6 +1,9 @@
 # add theme
 romkatv/powerlevel10k
 
+# omz plugins
+ohmyzsh/ohmyzsh path:plugins/sudo
+
 # add fish-like features
 zsh-users/zsh-autosuggestions
 zsh-users/zsh-history-substring-search
