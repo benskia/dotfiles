@@ -32,6 +32,10 @@ export PATH=$PATH:$HOME/go/bin/
 
 ##### ALIASES #####
 
+# change directories
+alias ..='cd ..'
+alias ...='cd ../..'
+
 # personal
 alias cdpr='cd $HOME/Workspaces/github.com/benskia/'
 
@@ -60,6 +64,10 @@ alias gcl='git clone'
 alias gra='git remote add origin'
 alias gpu='git push origin main'
 alias gpl='git pull origin main'
+
+# snapper
+alias snh='sudo snapper -c home'
+alias snr='sudo snapper -c root'
 
 
 ##### BINDS #####
