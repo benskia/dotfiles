@@ -1,3 +1,0 @@
-# Waybar Config
-
-yesway

@@ -1,3 +1,0 @@
-# Hyprland Config
-
-yup
