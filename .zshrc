@@ -16,6 +16,7 @@ export PATH=$PATH:$HOME/bin/
 # go
 export PATH=$PATH:/usr/local/go/bin/
 export PATH=$PATH:$HOME/go/bin/
+GOPATH=$HOME/go
 
 
 ##### ALIASES #####
