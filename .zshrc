@@ -41,6 +41,11 @@ alias ls='lsd -l'
 alias lsa='lsd -la'
 alias lst='lsd --tree'
 
+# wl-clipboard
+alias wlc='wl-copy'
+alias wlp='wl-paste -t "text/plain;charset=utf-8"'
+alias wlcb='wl-clipboard'
+
 # git
 alias gs='git status'
 alias ga='git add'
@@ -53,6 +58,10 @@ alias gcl='git clone'
 alias gra='git remote add origin'
 alias gpu='git push origin main'
 alias gpl='git pull origin main'
+
+# github-cli
+alias ghcl='gh repo clone'
+alias ghls='gh repo list'
 
 # snapper
 alias snh='sudo snapper -c home'
