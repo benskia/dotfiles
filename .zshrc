@@ -1,12 +1,15 @@
-# Add user configurations here
-# For HyDE to not touch your beloved configurations,
-# we added 2 files to the project structure:
-# 1. ~/.hyde.zshrc - for customizing the shell related hyde configurations
-# 2. ~/.zshenv - for updating the zsh environment variables handled by HyDE // this will be modified across updates
+plugins=(
+    "sudo"
+    "git"                     # (default)
+    "zsh-autosuggestions"     # (default)
+    "zsh-syntax-highlighting" # (default)
+)
+fpath+=${ZSH_CUSTOM:-${ZSH:-~/.oh-my-zsh}/custom}/plugins/zsh-completions/src
+autoload -U compinit && compinit
+source "$ZSH/oh-my-zsh.sh"
 
-##### PLUGINS #####
-# oh-my-zsh plugins are loaded  in ~/.hyde.zshrc file, see the file for more information
 
+##### OPTIONS #####
 
 ##### EXPORTS #####
 
@@ -18,12 +21,16 @@ export PATH=$PATH:/usr/local/go/bin/
 export PATH=$PATH:$HOME/go/bin/
 GOPATH=$HOME/go
 
+# zig
+export PATH=$PATH:/usr/local/zig
+
 
 ##### ALIASES #####
 
-# change directories
+# directories
 alias ..='cd ..'
 alias ...='cd ../..'
+alias mkdir='mkdir -p'
 
 # personal
 alias cdpr='cd $HOME/Workspaces/github.com/benskia/'
@@ -63,6 +70,12 @@ alias gpl='git pull origin main'
 alias ghcl='gh repo clone'
 alias ghls='gh repo list'
 
+# rust/cargo
+alias crn='cargo new'
+alias crb='cargo build'
+alias crr='cargo run'
+alias crd='cargo doc --open'
+
 # snapper
 alias snh='sudo snapper -c home'
 alias snr='sudo snapper -c root'
@@ -83,4 +96,3 @@ bindkey "^[[3~" delete-char
 
 # execution
 bindkey -s "^F" "^Utmux-sessionizer.sh^M"
-
