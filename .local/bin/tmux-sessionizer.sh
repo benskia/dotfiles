@@ -2,7 +2,7 @@
 
 toSearch=(
   $HOME/Workspaces/github.com/benskia/
-  $HOME/Workspaces/learning_zig/
+  $HOME/Workspaces/learn_zig/
   $HOME/Workspaces/rust-the_book/
   $HOME/Workspaces/exercism/rust/
   $HOME/Documents/
