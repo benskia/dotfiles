@@ -19,7 +19,7 @@ done
 # Custom scripts
 for name in .local/bin/*; do
   src="$HOME/$name"
-  dst="./.config/"
+  dst="./.local/"
   echo "Copying $src  =>  $dst$name"
   cp -r "$src" "$dst"
 done

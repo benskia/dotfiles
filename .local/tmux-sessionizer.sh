@@ -5,7 +5,8 @@ toSearch=(
   $HOME/Workspaces/learn_zig/
   # $HOME/Workspaces/rust-the_book/
   # $HOME/Workspaces/exercism/rust/
-  $HOME/Workspaces/exercism/zig/
+  # $HOME/Workspaces/exercism/zig/
+  $HOME/Workspaces/exercism/go/
   $HOME/Documents/
   $HOME/.config/
 )
