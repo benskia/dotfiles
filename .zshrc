@@ -53,6 +53,10 @@ alias wlc='wl-copy'
 alias wlp='wl-paste -t "text/plain;charset=utf-8"'
 alias wlcb='wl-clipboard'
 
+# tmux
+alias tma='tmux a'
+alias tml='tmux ls'
+
 # git
 alias gs='git status'
 alias ga='git add'
