@@ -14,4 +14,4 @@ mkdir -p "cmd/${cmdDir}" internal bin
 echo "bin/" >.gitignore
 
 # main src file
-echo "package main" >"cmd/${cmdDir}/main.go"
+echo "package main\r\n\r\nfunc main() {}" >"cmd/${cmdDir}/main.go"
