@@ -1,4 +1,4 @@
-#!usr/bin/env bash
+#!/usr/bin/env bash
 
 # parameter expansion: ## applies following pattern to longest match, */ matches
 # to everything up to a slash
