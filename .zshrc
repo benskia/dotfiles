@@ -74,6 +74,9 @@ alias gpl='git pull origin main'
 alias ghcl='gh repo clone'
 alias ghls='gh repo list'
 
+# python
+alias py='python3'
+
 # rust/cargo
 alias crn='cargo new'
 alias crb='cargo build'
